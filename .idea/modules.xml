@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JDBC0005/JDBC0005.iml" filepath="$PROJECT_DIR$/JDBC0005/JDBC0005.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSP0002/JSP0002.iml" filepath="$PROJECT_DIR$/JSP0002/JSP0002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBean0003/JavaBean0003.iml" filepath="$PROJECT_DIR$/JavaBean0003/JavaBean0003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaWeb0001/JavaWeb0001.iml" filepath="$PROJECT_DIR$/JavaWeb0001/JavaWeb0001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LJYJavaProject.iml" filepath="$PROJECT_DIR$/LJYJavaProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Servlet0004/Servlet0004.iml" filepath="$PROJECT_DIR$/Servlet0004/Servlet0004.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServletJSPWeb0007/ServletJSPWeb0007.iml" filepath="$PROJECT_DIR$/ServletJSPWeb0007/ServletJSPWeb0007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Struts0006/Struts0006.iml" filepath="$PROJECT_DIR$/Struts0006/Struts0006.iml" />
+    </modules>
+  </component>
+</project>
