@@ -4,12 +4,15 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDBC0005/JDBC0005.iml" filepath="$PROJECT_DIR$/JDBC0005/JDBC0005.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSP0002/JSP0002.iml" filepath="$PROJECT_DIR$/JSP0002/JSP0002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java80010/Java80010.iml" filepath="$PROJECT_DIR$/Java80010/Java80010.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBean0003/JavaBean0003.iml" filepath="$PROJECT_DIR$/JavaBean0003/JavaBean0003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaGenerics0009/JavaGenerics0009.iml" filepath="$PROJECT_DIR$/JavaGenerics0009/JavaGenerics0009.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaThread0008/JavaThread0008.iml" filepath="$PROJECT_DIR$/JavaThread0008/JavaThread0008.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaWeb0001/JavaWeb0001.iml" filepath="$PROJECT_DIR$/JavaWeb0001/JavaWeb0001.iml" />
       <module fileurl="file://$PROJECT_DIR$/LJYJavaProject.iml" filepath="$PROJECT_DIR$/LJYJavaProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/Servlet0004/Servlet0004.iml" filepath="$PROJECT_DIR$/Servlet0004/Servlet0004.iml" />
       <module fileurl="file://$PROJECT_DIR$/ServletJSPWeb0007/ServletJSPWeb0007.iml" filepath="$PROJECT_DIR$/ServletJSPWeb0007/ServletJSPWeb0007.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring0011/Spring0011.iml" filepath="$PROJECT_DIR$/Spring0011/Spring0011.iml" />
       <module fileurl="file://$PROJECT_DIR$/Struts0006/Struts0006.iml" filepath="$PROJECT_DIR$/Struts0006/Struts0006.iml" />
     </modules>
   </component>
