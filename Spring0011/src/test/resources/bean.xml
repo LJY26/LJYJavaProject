@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean name="outputService" class="com.ljy.Spring0011.OutputService">
+        <property name="helloService" ref="helloService"></property>
+    </bean>
+    <bean name="helloService" class="com.ljy.Spring0011.HelloService">
+        <property name="helloMessage" value="Hello Spring"/>
+        <property name="outputService" ref="outputService"/>
+    </bean>
+    <bean name="beanInitializeLogger" class="com.ljy.Spring0011.BeanInitializeLogger"></bean>
+
+    <bean id="timeInterceptor" class="com.ljy.Spring0011.aop.TimerInterceptor"></bean>
+
+    <bean id="autoProxyCreator" class="com.ljy.Spring0011.aop.AspectJAwareAdvisorAutoProxyCreator"></bean>
+
+    <bean id="aspectjAspect" class="com.ljy.Spring0011.aop.AspectJExpressionPointcutAdvisor">
+        <property name="advice" ref="timeInterceptor"></property>
+        <property name="expression" value="execution(* com.ljy.Spring0011.*.*(..))"></property>
+    </bean>
+
+</beans>

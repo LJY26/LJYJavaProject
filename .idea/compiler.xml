@@ -12,11 +12,11 @@
         <module name="Spring0011" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Java80010" target="1.5" />
-      <module name="JavaGenerics0009" target="1.5" />
-      <module name="JavaThread0008" target="1.5" />
-      <module name="Spring0011" target="1.5" />
+    <bytecodeTargetLevel target="8">
+      <module name="Java80010" target="8" />
+      <module name="JavaGenerics0009" target="8" />
+      <module name="JavaThread0008" target="8" />
+      <module name="Spring0011" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
