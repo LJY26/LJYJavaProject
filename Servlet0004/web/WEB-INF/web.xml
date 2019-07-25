@@ -26,6 +26,18 @@
         <servlet-name>login</servlet-name>
         <servlet-class>com.ljy.Servlet0004.LoginServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>index</servlet-name>
+        <servlet-class>com.ljy.Servlet0004.IndexServlet</servlet-class>
+        <init-param>
+            <param-name>helloMessage</param-name>
+            <param-value>Hava a fine！</param-value>
+        </init-param>
+        <init-param>
+            <param-name>name</param-name>
+            <param-value>李金燚</param-value>
+        </init-param>
+    </servlet>
     
     <!--Servlet映射-->
     <servlet-mapping>
@@ -48,18 +60,27 @@
         <servlet-name>login</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
-    
+    <servlet-mapping>
+        <servlet-name>index</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>city</param-name>
+        <param-value>北京</param-value>
+    </context-param>
+
     <!-- 注册Filter-->
-    <filter>
-        <filter-name>myFilter</filter-name>
-        <filter-class>com.ljy.Servlet0004.MyFilter</filter-class>
-        <init-param>
-            <param-name>encoding</param-name>
-            <param-value>UTF-8</param-value>
-        </init-param>
-    </filter>
-    <filter-mapping>
-        <filter-name>myFilter</filter-name>
-        <url-pattern>/*</url-pattern>
-    </filter-mapping>
+    <!--<filter>-->
+        <!--<filter-name>myFilter</filter-name>-->
+        <!--<filter-class>com.ljy.Servlet0004.MyFilter</filter-class>-->
+        <!--<init-param>-->
+            <!--<param-name>encoding</param-name>-->
+            <!--<param-value>UTF-8</param-value>-->
+        <!--</init-param>-->
+    <!--</filter>-->
+    <!--<filter-mapping>-->
+        <!--<filter-name>myFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
 </web-app>
