@@ -139,6 +139,8 @@ public class Java8Tests {
         customerInfos.add(new CustomerInfo(20,"cc"));
 
         System.out.println(customerInfos.stream().filter(testCustomerF(CustomerInfo::getName)).count());
+
+        System.out.println(Calendar.getInstance().getTime().getTime());
         //endregion
 
 

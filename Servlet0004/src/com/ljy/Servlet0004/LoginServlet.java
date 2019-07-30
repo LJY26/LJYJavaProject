@@ -2,6 +2,7 @@ package com.ljy.Servlet0004;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,7 +21,10 @@ public class LoginServlet extends HttpServlet {
         String passwd=req.getParameter("userpass");
 
         if(passwd.equals("123")&&name.equals("123")){
-            RequestDispatcher rd=req.getRequestDispatcher("book.jsp");
+            Cookie cookie=new Cookie("name",name);
+            resp.addCookie(cookie);
+//            RequestDispatcher rd=req.getRequestDispatcher("book.jsp");
+            RequestDispatcher rd=req.getRequestDispatcher("index.jsp");
             System.out.println("user name is :"+name);
             rd.forward(req,resp);
         }else if(passwd.equals("123")||name.equals("123")){

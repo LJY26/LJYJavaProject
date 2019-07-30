@@ -31,7 +31,7 @@ public class HttpServletImpl extends HttpServlet {
         String name=req.getParameter("name");
         PrintWriter printWriter=resp.getWriter();
         if(name!=null){
-            printWriter.write("Hello "+name+"!");
+            printWriter.write(getServletContext().getAttribute("Message")+name+"!");
         }
         printWriter.flush();
         printWriter.close();

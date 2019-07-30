@@ -9,6 +9,7 @@ public class MyFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         encoding=filterConfig.getInitParameter("encoding");
+        System.out.println("filter is initialize ");
     }
 
     @Override
@@ -24,5 +25,6 @@ public class MyFilter implements Filter {
     @Override
     public void destroy() {
         encoding=null;
+        System.out.println("filter is destroy");
     }
 }
